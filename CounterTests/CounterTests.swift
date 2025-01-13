@@ -2,7 +2,7 @@
 //  CounterTests.swift
 //  CounterTests
 //
-//  Created by Сергей Скориков on 11.01.2025.
+//  Created by Сергей Скориков on 06.01.2025.
 //
 
 import Testing
