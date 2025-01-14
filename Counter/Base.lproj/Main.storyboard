@@ -28,7 +28,7 @@
                                     <backgroundConfiguration key="background" image="plus.square.fill" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="increaseCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Oh-Xm-o0T"/>
+                                    <action selector="increaseCounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dIp-lW-qp5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6XB-Xg-n60" userLabel="Decrease">
@@ -42,7 +42,7 @@
                                     <backgroundConfiguration key="background" image="minus.square.fill" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="decreaseCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KiH-JH-QHK"/>
+                                    <action selector="decreaseCounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAC-oZ-6nB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="40" translatesAutoresizingMaskIntoConstraints="NO" id="qSg-nR-IgI">
@@ -64,7 +64,7 @@
                                     <backgroundConfiguration key="background" image="arrow.counterclockwise.square" catalog="system"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="resetCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qtr-j5-DBu"/>
+                                    <action selector="resetCounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ilH-KI-UcI"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="История изменения:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e1m-zb-G0U">
@@ -95,10 +95,10 @@
                     </view>
                     <connections>
                         <outlet property="counterLabel" destination="qSg-nR-IgI" id="PNp-Et-ju7"/>
-                        <outlet property="decreaseCounter" destination="6XB-Xg-n60" id="6Lv-fu-bjO"/>
+                        <outlet property="decreaseCounterButton" destination="6XB-Xg-n60" id="qlV-Nq-hdN"/>
                         <outlet property="historyTextView" destination="e1m-zb-G0U" id="aUQ-Cn-gF9"/>
-                        <outlet property="increaseCounter" destination="Hmk-yq-Vah" id="RKQ-Yk-pBp"/>
-                        <outlet property="resetCounter" destination="jAe-zF-wRB" id="RvM-yQ-Faq"/>
+                        <outlet property="increaseCounterButton" destination="Hmk-yq-Vah" id="vz1-X9-RLl"/>
+                        <outlet property="resetCounterButton" destination="jAe-zF-wRB" id="zYQ-wX-ahi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
